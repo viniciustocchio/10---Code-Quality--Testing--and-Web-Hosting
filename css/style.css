@@ -51,6 +51,11 @@ a:active {
   color: var(--light-green);
 }
 
+.profile-text-decoration {
+  color:rgb(238, 9, 9);
+  font-weight: 700;
+}
+
 button,
 .button {
   border: none;
