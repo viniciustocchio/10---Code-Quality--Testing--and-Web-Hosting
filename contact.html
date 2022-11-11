@@ -11,7 +11,8 @@
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="shortcut icon" href="img/favicon/favicon-16x16.png">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="css/style.production.css"> -->
 </head>
 
 <body>
@@ -35,26 +36,77 @@
       </nav>
     </header>
     <main>
-      <div class="profile">
+      <!-- <div class="profile">
         <h1>Contact</h1>
-        <form action="contact" method="post" id="contact-form">
-          <label class="standard-label" for="contact-email">Email: </label>
-          <input type="email" id="contact-email" required>
-          <label class="standard-label" for="contact-tel">Telephone: </label>
-          <input type="tel" id="contact-tel">
-          <label class="standard-label" for="contact-message">Message: </label>
-          <textarea required maxlength="240" id="contact-message"></textarea>
-          <input type="submit" value="Send message">
-        </form>
         <p>
           Vinicius Tocchio<br>
-          Munich <br>
-          Germany <br>
+          Munich - Germany <br>
           <br>
           Skype <a href="skype:vi.tocchio">vi.tocchio</a><br>
           Email <a href="mailto:vi.tocchio@gmail.com">vi.tocchio@gmail.com</a>
         </p>
+        <br>
+        <form action="contact" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required>
+          <br>
+          <label class="standard-label" for="contact-tel">Phone: </label>
+          <input type="tel" id="contact-tel">
+          <br>
+          <label class="standard-label" for="contact-message">Message: </label>
+          <textarea required maxlength="240" id="contact-message"></textarea>
+          <br>
+          <input class="button" type="submit" value="Send message">
+        </form>
+
+      </div> -->
+
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>ME</span>
+                </div>
+                <div class="app-contact">EMAIL : vi.tocchio@gmail.com</div>
+                <div class="app-contact">SKYPE : vi.tocchio</div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="NAME">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL">
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE">
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button">CANCEL</button>
+                    <button class="app-form-button">SEND</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
     </main>
 
     <footer class="page-footer">
